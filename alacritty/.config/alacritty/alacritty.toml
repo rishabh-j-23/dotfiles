@@ -11,7 +11,7 @@ TERM = "xterm-256color"
 # WINDOW
 [window]
 dimensions = { columns = 0, lines = 0}
-padding = { x = 5, y = 5 }
+padding = { x = 0, y = 0 }
 dynamic_padding = true
 decorations = "None"
 opacity = 0.80
@@ -80,7 +80,7 @@ bindings = [
   {key = "Space", mods = "Control", chars = "\u0000"},
   {key = "P", mods = "Command|Shift", chars = "alacritty -e 'htop' & \r"},
   {key = "I", mods = "Command|Shift", chars = "alacritty -e 'ipython' & \r"},
-  {key = "N", mods = "Command", action = "CreateNewWindow"},
+  {key = "N", mods = "Command|Shift", action = "CreateNewWindow"},
 ]
 
 # DEBUG
