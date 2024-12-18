@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias grep='grep --color=auto'
 alias fzfcd='cd "$(find . -type d | fzf)"'
+alias pacsize="expac '%m %n' | sort -n | numfmt --to=iec"
 
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"

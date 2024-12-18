@@ -51,7 +51,7 @@ unfocused_hollow = true
 
 # TERMINAL
 [terminal.shell]
-program = "bash"
+program = "zsh"
 args = ["--login"]
 
 # MOUSE
@@ -79,8 +79,7 @@ bindings = [
   {key = "Q", mods = "Command", action = "Quit"},
   {key = "Space", mods = "Control", chars = "\u0000"},
   {key = "P", mods = "Command|Shift", chars = "alacritty -e 'htop' & \r"},
-  {key = "I", mods = "Command|Shift", chars = "alacritty -e 'ipython' & \r"},
-  {key = "N", mods = "Command|Shift", action = "CreateNewWindow"},
+  {key = "N", mods = "Control|Shift", action = "CreateNewWindow"},
 ]
 
 # DEBUG
