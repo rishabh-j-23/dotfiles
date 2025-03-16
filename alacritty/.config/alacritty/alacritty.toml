@@ -78,7 +78,7 @@ bindings = [
   {key = "Minus", mods = "Command", action = "DecreaseFontSize"},
   {key = "Q", mods = "Command", action = "Quit"},
   {key = "Space", mods = "Control", chars = "\u0000"},
-  {key = "P", mods = "Command|Shift", chars = "alacritty -e 'htop' & \r"},
+  {key = "P", mods = "Command|Shift", chars = "alacritty -e 'btop' & \r"},
   {key = "N", mods = "Control|Shift", action = "CreateNewWindow"},
 ]
 
