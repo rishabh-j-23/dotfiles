@@ -81,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # Set up fzf key bindings and fuzzy completion
-source <(fzf --zsh)
+source <(fzf --reverse --zsh)
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
