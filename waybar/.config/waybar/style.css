@@ -4,15 +4,16 @@
   padding: 0px;
   margin: 0px;
   border-radius: 0px;
-  font-family: "GeistMono Nerd Font";
-  font-size: 14px;
+  font-family: "GeistMono Nerd Font", "DejaVu Sans Mono", "Fira Code Nerd Font";
+  font-size: 13px;
   font-weight: 800;
+  /* color: white; */
+  min-height: 8px;
 }
 
 window#waybar {
-  background: rgba(17, 18, 29, 1);
-  color: @white;
-  border-radius: 7px;
+  background: black;
+  border-radius: 50px;
 }
 
 #disk,
@@ -30,7 +31,8 @@ window#waybar {
 #idle_inhibitor,
 #tray,
 #workspaces {
-  background: @lightbg;
+  /* background: @lightbg; */
+  color: white;
   margin: 2px;
   padding: 2px;
   padding-left: 7px;
@@ -42,19 +44,19 @@ window#waybar {
 }
 
 #custom-spotify {
-  padding: 0 10 0 10px;
+  padding: 0 10px 0 10px;
 }
 
 #workspaces {
   margin-left: 9px;
-  background-color: @catp;
+  /* background-color: @catp; */
   margin-top: 7px;
   margin-bottom: 7px;
   border-radius: 5px;
 }
 
 #window {
-  background-color: @catp;
+  /* background-color: @catp; */
   margin-top: 7px;
   margin-bottom: 7px;
   border-radius: 5px;
@@ -62,11 +64,11 @@ window#waybar {
 }
 
 #custom-updater {
-  color: @red;
+  /* color: @red; */
 }
 
 #battery {
-  color: @vibrant-green;
+  /* color: @vibrant-green; */
 
   /* background-color: @catp; */
   /* margin-top: 7px; */
@@ -101,7 +103,7 @@ window#waybar {
 }
 
 #backlight {
-  color: @sun;
+  /* color: @sun; */
   /* background-color: @catp; */
   /* margin-top: 7px; */
   /* margin-bottom: 7px; */
@@ -109,8 +111,8 @@ window#waybar {
 }
 
 #network {
-  color: @module-bg;
-  background-color: @python;
+  /* color: @module; */
+  /* background-color: @python; */
   margin-top: 7px;
   margin-bottom: 7px;
   border-radius: 5px;
@@ -123,7 +125,7 @@ window#waybar {
   /* margin-bottom: 7px; */
   /* border-radius: 10px 0px 0px 10px; */
   /* margin-right: 0px; */
-  color: @dark-purple;
+  /* color: @dark-purple; */
 }
 
 #pulseaudio.microphone {
@@ -135,12 +137,12 @@ window#waybar {
   /* padding-left: 0px; */
   /* border-radius: 0px 10px 10px 0px; */
   border-radius: 7px;
-  color: @dark-purple;
+  /* color: @dark-purple; */
 }
 
 #pulseaudio.microphone.source-muted {
-  background-color: @red;
-  color: @module-bg;
+  /* background-color: @red; */
+  /* color: @module-bg; */
   /* padding-left: 5px; */
   /* margin-left: 10px; */
 
@@ -150,7 +152,7 @@ window#waybar {
 }
 
 #memory {
-  color: @sun;
+  /* color: @sun; */
 
   /* background-color: @sun; */
   /* margin-top: 10px; */
@@ -158,12 +160,12 @@ window#waybar {
 }
 
 #bluetooth {
-  color: @python;
+  /* color: @python; */
 }
 
 #clock {
-  color: @module-bg;
-  background-color: @vibrant-green;
+  /* color: @module-bg; */
+  /* background-color: @vibrant-green; */
   margin-top: 7px;
   margin-bottom: 7px;
   margin-right: 5px;
@@ -171,7 +173,7 @@ window#waybar {
 }
 
 #disk {
-  color: @cyan;
+  /* color: @cyan; */
 }
 
 #tray {
@@ -190,129 +192,129 @@ window#waybar {
 }
 
 #workspaces button:nth-child(1) {
-  color: @firefox;
+  /* color: @firefox; */
 }
 
 #workspaces button:hover:nth-child(1) {
-  color: @firefox;
+  /* color: @firefox; */
 }
 
 #workspaces button.empty:nth-child(1) {
-  color: @firefox;
+  /* color: @firefox; */
 }
 
 #workspaces button.active:nth-child(1) {
-  color: @firefox;
+  /* color: @firefox; */
 }
 
 #workspaces button:nth-child(2) {
-  color: @python;
+  /* color: @python; */
 }
 
 #workspaces button:hover:nth-child(2) {
-  color: @python;
+  /* color: @python; */
 }
 
 #workspaces button.empty:nth-child(2) {
-  color: @python;
+  /* color: @python; */
 }
 
 #workspaces button.active:nth-child(2) {
-  color: @python;
+  /* color: @python; */
 }
 
 #workspaces button:nth-child(3) {
-  color: @dark-purple;
+  /* color: @dark-purple; */
 }
 
 #workspaces button:hover:nth-child(3) {
-  color: @dark-purple;
+  /* color: @dark-purple; */
 }
 
 #workspaces button.empty:nth-child(3) {
-  color: @dark-purple;
+  /* color: @dark-purple; */
 }
 
 #workspaces button.active:nth-child(3) {
-  color: @dark-purple;
+  /* color: @dark-purple; */
 }
 
 #workspaces button:nth-child(4) {
-  color: @green;
+  /* color: @green; */
 }
 
 #workspaces button:hover:nth-child(4) {
-  color: @green;
+  /* color: @green; */
 }
 
 #workspaces button.empty:nth-child(4) {
-  color: @green;
+  /* color: @green; */
 }
 
 #workspaces button.active:nth-child(4) {
-  color: @green;
+  /* color: @green; */
 }
 
 #workspaces button:nth-child(5) {
-  color: @git;
+  /* color: @git; */
 }
 
 #workspaces button:hover:nth-child(5) {
-  color: @git;
+  /* color: @git; */
 }
 
 #workspaces button.empty:nth-child(5) {
-  color: @git;
+  /* color: @git; */
 }
 
 #workspaces button.active:nth-child(5) {
-  color: @git;
+  /* color: @git; */
 }
 
 #workspaces button:nth-child(6) {
-  color: @blue;
+  /* color: @blue; */
 }
 
 #workspaces button:hover:nth-child(6) {
-  color: @blue;
+  /* color: @blue; */
 }
 
 #workspaces button.empty:nth-child(6) {
-  color: @blue;
+  /* color: @blue; */
 }
 
 #workspaces button.active:nth-child(6) {
-  color: @blue;
+  /* color: @blue; */
 }
 
 #workspaces button:nth-child(7) {
-  color: @baby-pink;
+  /* color: @baby-pink; */
 }
 
 #workspaces button:hover:nth-child(7) {
-  color: @baby-pink;
+  /* color: @baby-pink; */
 }
 
 #workspaces button.empty:nth-child(7) {
-  color: @baby-pink;
+  /* color: @baby-pink; */
 }
 
 #workspaces button.active:nth-child(7) {
-  color: @baby-pink;
+  /* color: @baby-pink; */
 }
 
 #workspaces button:nth-child(8) {
-  color: @sun;
+  /* color: @sun; */
 }
 
 #workspaces button:hover:nth-child(8) {
-  color: @baby-pink;
+  /* color: @baby-pink; */
 }
 
 #workspaces button.empty:nth-child(8) {
-  color: @baby-pink;
+  /* color: @baby-pink; */
 }
 
 #workspaces button.active:nth-child(8) {
-  color: @baby-pink;
+  /* color: @baby-pink; */
 }
