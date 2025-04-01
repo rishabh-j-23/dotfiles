@@ -5,14 +5,13 @@
   margin: 0px;
   border-radius: 0px;
   font-family: "GeistMono Nerd Font", "DejaVu Sans Mono", "Fira Code Nerd Font";
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 800;
-  /* color: white; */
-  min-height: 8px;
 }
 
 window#waybar {
   background: black;
+  color: white;
   border-radius: 50px;
 }
 
@@ -32,14 +31,13 @@ window#waybar {
 #tray,
 #workspaces {
   /* background: @lightbg; */
-  color: white;
   margin: 2px;
   padding: 2px;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 3px;
+  padding-right: 3px;
 
-  margin-top: 7px;
-  margin-bottom: 7px;
+  /* margin-top: 7px; */
+  /* margin-bottom: 7px; */
   border-radius: 5px;
 }
 
@@ -50,9 +48,11 @@ window#waybar {
 #workspaces {
   margin-left: 9px;
   /* background-color: @catp; */
+  color: white;
   margin-top: 7px;
   margin-bottom: 7px;
   border-radius: 5px;
+  background-color: black;
 }
 
 #window {
@@ -111,7 +111,7 @@ window#waybar {
 }
 
 #network {
-  /* color: @module; */
+  /* color: @module-bg; */
   /* background-color: @python; */
   margin-top: 7px;
   margin-bottom: 7px;
@@ -188,7 +188,10 @@ window#waybar {
 /* } */
 
 #workspaces button {
-  padding: 1px;
+  min-width: 16px;
+  min-height: 4px;
+  border-radius: 100%;
+  color: white;
 }
 
 #workspaces button:nth-child(1) {

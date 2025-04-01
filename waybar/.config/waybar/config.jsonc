@@ -14,7 +14,7 @@
     "margin-right": 4,
 
     "modules-left": ["hyprland/workspaces", "hyprland/window"],
-    "modules-center": ["custom/spotify"],
+    "modules-center": ["custom/spotify", "custom/notification"],
     "modules-right": [
       "memory",
       "network",
@@ -24,6 +24,7 @@
       "battery",
       "clock",
       "idle_inhibitor",
+      // "bluetooth",
       "tray",
     ],
   },
