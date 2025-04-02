@@ -15,15 +15,6 @@
     "smooth-scrolling-threshold": 1,
   },
 
-  "custom/updater": {
-    "format": "  {}",
-    "exec": "~/.dotfiles/scripts/.local/scripts/checkforupdates",
-    "exec-if": "[[ $(checkupdates | wc -l) ]]",
-    "interval": 15,
-    "on-click": "alacritty -T update paru -Syu || yay -Syu && notify-send 'The system has been updated'",
-    "on-click-right": "~/.config/hypr/scripts/WallpaperSwitch.sh",
-  },
-
   "custom/weather": {
     "format": "{}",
     "format-alt": "{alt}: {}",
@@ -53,7 +44,7 @@
     "format": "{icon}",
     "format-icons": {
       "notification": " <span foreground='red'><sup></sup></span>",
-      "none": "",
+      "none": " ",
       "dnd-notification": "<span foreground='red'><sup></sup></span>",
       "dnd-none": " ",
       "inhibited-notification": "<span foreground='red'><sup></sup></span>",
@@ -64,6 +55,7 @@
     "return-type": "json",
     "exec-if": "which swaync-client",
     "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t",
     "on-click-right": "sleep 0.1 && swaync-client -d -sw",
     "escape": true,
   },
@@ -78,7 +70,7 @@
   },
 
   "hyprland/window": {
-    "format": "{}",
+    "format": "{initialTitle} - {title}",
     "max-length": 35,
 
     "separate-outputs": true,
@@ -224,14 +216,8 @@
 
   "tray": {
     "icon-size": 18,
-    "spacing": 9,
+    "spacing": 8,
     "show-passive-items": true,
-    "expand": true,
+    "icon": true,
   },
 }
-// "bluetooth": {
-//   "format": " {status}",
-//   "format-connected": " {device_alias}",
-//   "format-disconnected": " Disconnected",
-//   "tooltip": true,
-// },
