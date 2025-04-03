@@ -41,15 +41,15 @@
 
   "custom/notification": {
     "tooltip": true,
-    "format": "{icon}",
+    "format": "{icon}<span><sup>{text}</sup></span>",
     "format-icons": {
-      "notification": " <span foreground='red'><sup></sup></span>",
+      "notification": " ",
       "none": " ",
-      "dnd-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-notification": " ",
       "dnd-none": " ",
-      "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      "inhibited-notification": " ",
       "inhibited-none": " ",
-      "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-inhibited-notification": " ",
       "dnd-inhibited-none": " ",
     },
     "return-type": "json",
@@ -119,7 +119,7 @@
   },
 
   "battery": {
-    "interval": 60,
+    "interval": 10,
     "align": 0,
     "rotate": 0,
     "full-at": 100,
