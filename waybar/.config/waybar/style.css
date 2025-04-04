@@ -32,8 +32,12 @@ window#waybar {
   background: #111;
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 20px;
+  border-radius: 16px;
   border: 2px solid #444;
+}
+
+#tray {
+  padding: 0 15px;
 }
 
 #custom-spotify {
@@ -60,6 +64,9 @@ window#waybar {
 window#waybar.empty #window {
   background: transparent;
   color: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 #custom-notification {
@@ -68,7 +75,7 @@ window#waybar.empty #window {
   border-radius: 40px;
   font-size: 18px;
   font-weight: 600;
-  border: 2px solid #444;
+  border: 2px solid #456;
 }
 
 #custom-spotify {
@@ -79,4 +86,36 @@ window#waybar.empty #window {
   border-radius: 20px;
   background-color: #111111;
   margin: 0 5px;
+}
+
+tooltip {
+  background: black;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 25px;
+  font-size: 13px;
+  border: 1px solid #999;
+}
+
+#workspaces button.active {
+  background: #666;
+  border-radius: 20px;
+  border: 1px solid #999;
+  padding: 0 15px;
+  padding-right: 10px;
+  margin: 5px;
+}
+
+#custom-apps {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  padding: 0px 20px;
+  color: white;
+  font-size: 17px;
+  border: 2px solid #444;
+}
+
+/* Icon spacing */
+#custom-apps > * {
+  padding: 0 8px;
 }

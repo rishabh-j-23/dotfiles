@@ -10,8 +10,8 @@
     "on-click-middle": "brightnessctl set 0%",
     "on-click-right": "brightnessctl set 50%",
     "on-update": "",
-    "on-scroll-up": "~/.local/scripts/Brightness up",
-    "on-scroll-down": "~/.local/scripts/Brightness down",
+    "on-scroll-up": "brightnessctl set +5%",
+    "on-scroll-down": "brightnessctl set 5%-",
     "smooth-scrolling-threshold": 1,
   },
 
@@ -71,7 +71,7 @@
 
   "hyprland/window": {
     "format": "{initialTitle} - {title}",
-    "max-length": 35,
+    "max-length": 50,
 
     "separate-outputs": true,
   },
@@ -180,7 +180,7 @@
   },
 
   "clock": {
-    "format": "󰥔 {:%a, %H:%M}",
+    "format": "󰥔 {:%a, %I:%M %p}",
     "format-alt": " {:%Y, %d %B}",
     "tooltip-format": " <tt><small>{calendar}</small></tt> ",
     "interval": 1,
@@ -219,5 +219,13 @@
     "spacing": 8,
     "show-passive-items": true,
     "icon": true,
+  },
+
+  "custom/apps": {
+    "format": "{}",
+    "exec": "~/.config/waybar/scripts/apps.py",
+    "return-type": "json",
+    "interval": 60,
+    "tooltip": true,
   },
 }
