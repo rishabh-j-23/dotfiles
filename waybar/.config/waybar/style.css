@@ -106,16 +106,31 @@ tooltip {
   margin: 5px;
 }
 
-#custom-apps {
-  background: rgba(0, 0, 0, 0.7);
+#custom-spotifyapp,
+#custom-terminal,
+#custom-firefox,
+#custom-files,
+#custom-discord,
+#custom-stremio,
+#custom-cpufreq,
+#custom-powermanager {
+  padding: 2 15px;
+  font-size: 18px;
   border-radius: 20px;
-  padding: 0px 20px;
-  color: white;
-  font-size: 17px;
-  border: 2px solid #444;
+  padding-left: 12px;
 }
 
-/* Icon spacing */
-#custom-apps > * {
-  padding: 0 8px;
+/*   border-top-left-radius: 20px; */
+/*   border-bottom-left-radius: 20px; */
+/* } */
+
+#custom-terminal:hover,
+#custom-firefox:hover,
+#custom-files:hover,
+#custom-spotifyapp:hover,
+#custom-discord:hover,
+#custom-stremio:hover,
+#custom-cpufreq:hover,
+#custom-powermanager:hover {
+  color: white;
 }

@@ -240,7 +240,8 @@ slider {
   .notification-row
   .notification-background
   .notification.critical {
-  background-color: @surface;
+  /* background-color: @surface; */
+  background-color: alpha(#000, 0.9);
   border-radius: 20px;
   margin: 4px 0;
   padding: 8px 8px 8px 16px;

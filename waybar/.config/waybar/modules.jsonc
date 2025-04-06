@@ -71,7 +71,7 @@
 
   "hyprland/window": {
     "format": "{initialTitle} - {title}",
-    "max-length": 50,
+    "max-length": 25,
 
     "separate-outputs": true,
   },
@@ -221,11 +221,44 @@
     "icon": true,
   },
 
-  "custom/apps": {
-    "format": "{}",
-    "exec": "~/.config/waybar/scripts/apps.py",
-    "return-type": "json",
-    "interval": 60,
-    "tooltip": true,
+  "custom/terminal": {
+    "format-iconst": "",
+    "tooltip-format": "Terminal",
+    "on-click": "alacritty",
+  },
+  "custom/firefox": {
+    "format": "",
+    "tooltip-format": "Firefox",
+    "on-click": "firefox",
+  },
+  "custom/files": {
+    "format": "",
+    "tooltip-format": "Files",
+    "on-click": "nautilus",
+  },
+  "custom/discord": {
+    "format": "",
+    "tooltip-format": "Discord",
+    "on-click": "discord",
+  },
+  "custom/stremio": {
+    "format": "",
+    "tooltip-format": "Stremio",
+    "on-click": "stremio",
+  },
+  "custom/cpufreq": {
+    "format": "󱑼",
+    "tooltip-format": "CPU Freq",
+    "on-click": "auto-cpufreq-gtk",
+  },
+  "custom/powermanager": {
+    "format": "󰠠",
+    "tooltip-format": "Power Manager (Gnome)",
+    "on-click": "gnome-power-statistics",
+  },
+  "custom/spotifyapp": {
+    "format": "󰓇",
+    "tooltip-format": "Spotify",
+    "on-click": "spotify",
   },
 }
