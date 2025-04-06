@@ -256,9 +256,4 @@
     "tooltip-format": "Power Manager (Gnome)",
     "on-click": "gnome-power-statistics",
   },
-  "custom/spotifyapp": {
-    "format": "󰓇",
-    "tooltip-format": "Spotify",
-    "on-click": "spotify",
-  },
 }

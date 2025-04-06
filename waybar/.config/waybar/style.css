@@ -70,12 +70,12 @@ window#waybar.empty #window {
 }
 
 #custom-notification {
-  background-color: #222;
-  padding: 0 50px;
+  /* background-color: #222; */
+  padding: 0 10px;
   border-radius: 40px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
-  border: 2px solid #456;
+  /* border: 2px solid #456; */
 }
 
 #custom-spotify {
@@ -114,7 +114,7 @@ tooltip {
 #custom-stremio,
 #custom-cpufreq,
 #custom-powermanager {
-  padding: 2 15px;
+  padding: 0 15px;
   font-size: 20px;
   border-radius: 20px;
   padding-left: 12px;
@@ -126,14 +126,9 @@ tooltip {
   padding: 0 8px;
 }
 
-/*   border-top-left-radius: 20px; */
-/*   border-bottom-left-radius: 20px; */
-/* } */
-
 #custom-terminal:hover,
 #custom-firefox:hover,
 #custom-files:hover,
-#custom-spotifyapp:hover,
 #custom-discord:hover,
 #custom-stremio:hover,
 #custom-cpufreq:hover,
