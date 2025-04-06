@@ -222,7 +222,7 @@
   },
 
   "custom/terminal": {
-    "format-iconst": "",
+    "format": "",
     "tooltip-format": "Terminal",
     "on-click": "alacritty",
   },

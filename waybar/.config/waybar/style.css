@@ -115,9 +115,15 @@ tooltip {
 #custom-cpufreq,
 #custom-powermanager {
   padding: 2 15px;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 20px;
   padding-left: 12px;
+  color: lightblue;
+}
+
+#custom-terminal {
+  font-size: 25px;
+  padding: 0 8px;
 }
 
 /*   border-top-left-radius: 20px; */
