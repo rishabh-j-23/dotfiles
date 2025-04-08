@@ -70,9 +70,10 @@
   },
 
   "hyprland/window": {
-    "format": "{initialTitle} - {title}",
+    "format": "{initialTitle}",
     "max-length": 25,
-
+    "icon": true,
+    "icon-size": 20,
     "separate-outputs": true,
   },
 
@@ -119,7 +120,7 @@
   },
 
   "battery": {
-    "interval": 10,
+    "interval": 3,
     "align": 0,
     "rotate": 0,
     "full-at": 100,
@@ -138,14 +139,13 @@
     "format-time": "{H}h {M}min",
     "tooltip": true,
     "tooltip-format": " {timeTo} {power}w ",
-    "on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
-    "on-click-right": "$HOME/.config/hypr/scripts/WofiPower.sh",
   },
 
   "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-bluetooth": "{icon}  {volume} %",
-    "format-muted": "x",
+    "format-muted": "<span size='x-large'>󰝟</span>",
+    "markup": "pango",
     "format-icons": {
       "headphone": " ",
       "hands-free": " ",
@@ -159,8 +159,8 @@
     "scroll-step": 5.0,
     "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
     "on-click-right": "pavucontrol -t 3",
-    "on-scroll-up": "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+",
-    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+    "on-scroll-up": "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%-",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
     "smooth-scrolling-threshold": 1,
   },
 
@@ -176,7 +176,7 @@
   },
 
   "disk": {
-    "format": "󰋊 {percentage_used}%",
+    "format": " {percentage_used}%",
   },
 
   "clock": {
@@ -216,7 +216,7 @@
 
   "tray": {
     "icon-size": 22,
-    "spacing": 8,
+    "spacing": 6,
     "show-passive-items": true,
     "icon": true,
   },

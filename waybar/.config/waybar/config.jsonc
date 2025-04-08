@@ -9,9 +9,9 @@
     "spacing": 2,
     "fixed-center": true,
     "ipc": true,
-    "margin-top": 2,
-    "margin-left": 4,
-    "margin-right": 4,
+    "margin-top": 1,
+    "margin-left": 2,
+    "margin-right": 2,
     "reload_style_on_change": true,
 
     "modules-left": [

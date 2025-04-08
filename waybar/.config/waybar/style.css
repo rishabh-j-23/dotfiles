@@ -114,10 +114,9 @@ tooltip {
 #custom-stremio,
 #custom-cpufreq,
 #custom-powermanager {
-  padding: 0 15px;
-  font-size: 20px;
+  padding: 0 12px;
+  font-size: 22px;
   border-radius: 20px;
-  padding-left: 12px;
   color: lightblue;
 }
 

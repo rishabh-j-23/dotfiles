@@ -12,7 +12,7 @@
     // Black
     black:       #3d352a;
     lightblack:  #554444;
-    tlightblack:  #554444cc;
+    tlightblack:  #222;
     //
     // Red
     red:         #cd5c5c;
@@ -53,6 +53,7 @@ window {
     location: center;
     anchor:   center;
     transparency: "real";
+    width: 500px;
     padding: 10px;
     border:  0px;
     border-radius: 10px;
@@ -105,7 +106,7 @@ listview {
 element {
     padding: 3px;
     vertical-align: 0.5;
-//    border: 2px;
+    border: 2px;
     border-radius: 4px;
     background-color: transparent;
     color: @foreground;
@@ -114,6 +115,9 @@ element {
 element-text {
     background-color: inherit;
     text-color:       inherit;
+}
+element-icon {
+    padding: 0 10px 0 0;        
 }
 element selected.normal {
     background-color: @blue;
