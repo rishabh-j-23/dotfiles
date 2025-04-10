@@ -299,7 +299,7 @@ slider {
 }
 
 .control-center .notification-row .notification-background .close-button {
-  background: black;
+  background-color: alpha(#000000, 0.2);
   border-radius: 20px;
   color: @text;
   background-color: @surface;
