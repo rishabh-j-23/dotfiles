@@ -13,6 +13,7 @@
     "margin-left": 2,
     "margin-right": 2,
     "reload_style_on_change": true,
+    "seperator": "|",
 
     "modules-left": [
       "hyprland/workspaces",
@@ -25,15 +26,13 @@
       "custom/cpufreq",
       "custom/powermanager",
     ],
-    "modules-center": ["custom/spotify", "custom/notification"],
+    "modules-center": ["custom/spotify", "clock", "custom/notification"],
     "modules-right": [
-      "memory",
       "network",
       "pulseaudio#microphone",
       "pulseaudio",
       "backlight",
       "battery",
-      "clock",
       "idle_inhibitor",
       "tray",
     ],

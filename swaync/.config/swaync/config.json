@@ -90,7 +90,7 @@
           "type": "toggle",
           "active": true,
           "command": "bluetoothctl power on",
-          "update-command": "bluetoothctl power off"
+          "update-command": "bluetoothctl power toggle"
         },
         {
           "label": " ",
