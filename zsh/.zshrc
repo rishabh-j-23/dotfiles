@@ -84,6 +84,7 @@ source $ZSH/oh-my-zsh.sh
 source <(fzf --reverse --zsh)
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export QT_QPA_PLATFORMTHEME=qt6ct
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
