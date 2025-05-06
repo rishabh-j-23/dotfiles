@@ -14,7 +14,7 @@ dimensions = { columns = 0, lines = 0}
 padding = { x = 0, y = 0 }
 dynamic_padding = true
 decorations = "None"
-opacity = 0.80
+opacity = 0.9
 blur = true
 startup_mode = "Maximized"
 dynamic_title = true
