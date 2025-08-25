@@ -6,10 +6,10 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { 'powershell', '-NoLogo' }
+   options.default_prog = { 'pwsh', '-NoLogo' }
    options.launch_menu = {
-      { label = 'PowerShell Core', args = { 'pwsh' } },
-      { label = 'PowerShell Desktop', args = { 'powershell' } },
+      { label = 'PowerShell 7', args = { 'pwsh' } },
+      { label = 'PowerShell 5.x', args = { 'powershell' } },
       { label = 'Command Prompt', args = { 'cmd' } },
       { label = 'Nushell', args = { 'nu' } },
       {
